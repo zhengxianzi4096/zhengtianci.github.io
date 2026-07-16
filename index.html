@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> 中华人民共和国人员档案 郑天赐 电气工程技术人员</title>
+    <title>郑天赐 · 电气工程技术人员 · Zheng Tianci</title>
 
     <!-- ===== 基础 SEO ===== -->
-    <meta name="description" content="郑天赐，电气工程技术人员，持有电工三级（高级工）证书，独立开发电力参数一体化计算平台并获国家版权局软件著作权。" />
-    <meta name="keywords" content="郑天赐, 电工三级, 软件著作权, 电力参数一体化计算平台, 电气工程, 贵州工业职业技术学院" />
+    <meta name="description" content="郑天赐 (Zheng Tianci)，电气工程技术人员，持有电工三级（高级工）证书，独立开发电力参数一体化计算平台并获国家版权局软件著作权。" />
+    <meta name="keywords" content="郑天赐, Zheng Tianci, 电工三级, 软件著作权, 电力参数一体化计算平台, 电气工程, 贵州工业职业技术学院" />
     <meta name="author" content="郑天赐" />
     <link rel="canonical" href="https://www.zhengtianci.com/" />
 
@@ -204,6 +204,25 @@
             line-height: 1.5;
         }
 
+        /* ---- 双语辅助样式 ---- */
+        .en {
+            font-size: 11px;
+            color: #7a8b9e;
+            font-weight: 400;
+            display: block;
+            margin-top: 1px;
+            letter-spacing: 0.2px;
+        }
+        .label .en {
+            font-weight: 300;
+            color: #8a9baa;
+            font-size: 10.5px;
+        }
+        .value .en {
+            font-weight: 400;
+            color: #6f8093;
+        }
+
         /* 链接样式 */
         .school-link,
         .job-link,
@@ -243,6 +262,14 @@
             line-height: 1.2;
             margin-bottom: 2px;
         }
+        .content-header h1 .en {
+            font-size: 18px;
+            font-weight: 400;
+            color: #6c7e94;
+            display: inline;
+            margin-left: 10px;
+            letter-spacing: 0.5px;
+        }
 
         .content-header .subhead {
             font-size: 16px;
@@ -258,6 +285,12 @@
         .content-header .subhead a:hover {
             border-bottom: 1px solid #1f5a96;
         }
+        .content-header .subhead .en {
+            font-size: 14px;
+            display: inline;
+            margin-left: 8px;
+            color: #8a9baa;
+        }
 
         /* 正文标题 */
         .content h2 {
@@ -272,12 +305,28 @@
         .content h2:first-of-type {
             margin-top: 0;
         }
+        .content h2 .en {
+            font-size: 15px;
+            font-weight: 400;
+            color: #7a8b9e;
+            display: inline;
+            margin-left: 10px;
+            letter-spacing: 0.3px;
+        }
 
         .content p {
             margin-bottom: 14px;
             font-size: 15px;
             color: #1a2634;
             line-height: 1.8;
+        }
+        .content p .en {
+            font-size: 14px;
+            color: #5f7082;
+            margin-top: 4px;
+            display: block;
+            font-weight: 400;
+            line-height: 1.7;
         }
 
         .content ul {
@@ -294,6 +343,14 @@
         }
         .content ul li strong {
             color: #0a1a2b;
+        }
+        .content ul li .en {
+            font-size: 13px;
+            color: #5f7082;
+            display: block;
+            margin-top: 2px;
+            font-weight: 400;
+            line-height: 1.6;
         }
 
         /* 高亮卡片 */
@@ -314,6 +371,14 @@
         .highlight-box p:last-child {
             margin-bottom: 0;
         }
+        .highlight-box p .en {
+            font-size: 14px;
+            color: #5f7082;
+            display: block;
+            margin-top: 4px;
+            font-weight: 400;
+            line-height: 1.7;
+        }
 
         .highlight-box strong {
             color: #0a1a2b;
@@ -333,6 +398,13 @@
         .highlight-box .check-link a:hover {
             border-bottom: 1px solid #1f5a96;
         }
+        .highlight-box .check-link .en {
+            font-size: 12px;
+            color: #7a8b9e;
+            display: inline;
+            margin-left: 6px;
+            font-weight: 400;
+        }
 
         /* ===== 底部 ===== */
         .footer {
@@ -343,6 +415,24 @@
             color: #8a9caa;
             text-align: center;
             letter-spacing: 0.3px;
+        }
+        .footer .en {
+            font-size: 12px;
+            color: #9aabba;
+            display: block;
+            margin-top: 2px;
+            font-weight: 400;
+        }
+        .footer .addr {
+            font-size: 12px;
+            color: #8a9caa;
+            margin-top: 4px;
+        }
+        .footer .addr .en {
+            display: inline;
+            font-size: 12px;
+            margin-left: 6px;
+            color: #9aabba;
         }
 
         /* ================================================
@@ -360,6 +450,9 @@
             }
             .content-header h1 {
                 font-size: 28px;
+            }
+            .content-header h1 .en {
+                font-size: 16px;
             }
         }
 
@@ -434,10 +527,22 @@
                 font-size: 13px;
                 min-width: 58px;
             }
+            .info-table .label .en {
+                display: inline;
+                font-size: 10px;
+                margin-left: 4px;
+                color: #8a9baa;
+            }
 
             .info-table .value {
                 display: inline;
                 font-size: 13px;
+            }
+            .info-table .value .en {
+                display: inline;
+                font-size: 11px;
+                margin-left: 4px;
+                color: #6f8093;
             }
 
             .info-table .value-sm {
@@ -451,13 +556,30 @@
             .content-header h1 {
                 font-size: 24px;
             }
+            .content-header h1 .en {
+                font-size: 14px;
+                display: block;
+                margin-left: 0;
+                margin-top: 2px;
+            }
             .content-header .subhead {
                 font-size: 15px;
+            }
+            .content-header .subhead .en {
+                font-size: 13px;
+                display: block;
+                margin-left: 0;
             }
 
             .content h2 {
                 font-size: 18px;
                 margin-top: 24px;
+            }
+            .content h2 .en {
+                font-size: 13px;
+                display: block;
+                margin-left: 0;
+                margin-top: 2px;
             }
 
             .content p,
@@ -465,6 +587,11 @@
             .highlight-box p {
                 font-size: 14px;
                 line-height: 1.7;
+            }
+            .content p .en,
+            .content ul li .en,
+            .highlight-box p .en {
+                font-size: 13px;
             }
 
             .content ul {
@@ -479,6 +606,9 @@
             .footer {
                 font-size: 12px;
                 margin-top: 28px;
+            }
+            .footer .en {
+                font-size: 11px;
             }
         }
 
@@ -525,8 +655,14 @@
                 min-width: 50px;
                 font-size: 12px;
             }
+            .info-table .label .en {
+                font-size: 9px;
+            }
             .info-table .value {
                 font-size: 12px;
+            }
+            .info-table .value .en {
+                font-size: 10px;
             }
             .info-table .value-sm {
                 font-size: 12px;
@@ -543,8 +679,14 @@
             .content-header h1 {
                 font-size: 20px;
             }
+            .content-header h1 .en {
+                font-size: 12px;
+            }
             .content-header .subhead {
                 font-size: 13px;
+            }
+            .content-header .subhead .en {
+                font-size: 12px;
             }
 
             .content h2 {
@@ -552,12 +694,20 @@
                 margin-top: 18px;
                 padding-bottom: 5px;
             }
+            .content h2 .en {
+                font-size: 12px;
+            }
 
             .content p,
             .content ul li,
             .highlight-box p {
                 font-size: 13px;
                 line-height: 1.6;
+            }
+            .content p .en,
+            .content ul li .en,
+            .highlight-box p .en {
+                font-size: 12px;
             }
 
             .content ul {
@@ -575,11 +725,23 @@
             .highlight-box .check-link {
                 font-size: 13px;
             }
+            .highlight-box .check-link .en {
+                font-size: 11px;
+            }
 
             .footer {
                 font-size: 11px;
                 margin-top: 20px;
                 padding-top: 12px;
+            }
+            .footer .en {
+                font-size: 10px;
+            }
+            .footer .addr {
+                font-size: 11px;
+            }
+            .footer .addr .en {
+                font-size: 10px;
             }
         }
 
@@ -647,6 +809,9 @@
             .country-link {
                 border-bottom: 1px solid #999;
             }
+            .en {
+                color: #555 !important;
+            }
         }
     </style>
 </head>
@@ -656,61 +821,67 @@
         <!-- ===== 左侧信息栏 ===== -->
         <aside class="sidebar">
             <div class="avatar">
-                <img src="zheng_tianci.jpg" alt="郑天赐头像" />
+                <img src="zheng_tianci.jpg" alt="郑天赐头像 / Zheng Tianci Avatar" />
             </div>
 
             <div class="sidebar-info">
-                <!-- 在手机上隐藏标题，用表格直接展示 -->
-                <div class="sidebar-title" aria-hidden="true">个人信息</div>
+                <div class="sidebar-title" aria-hidden="true">个人信息 / Personal Info</div>
 
                 <table class="info-table">
                     <tr>
-                        <td class="label">中文名</td>
-                        <td class="value">郑天赐</td>
+                        <td class="label">中文名 <span class="en">Chinese Name</span></td>
+                        <td class="value">郑天赐 <span class="en">Zheng Tianci</span></td>
                     </tr>
                     <tr>
-                        <td class="label">国籍</td>
+                        <td class="label">国籍 <span class="en">Nationality</span></td>
                         <td class="value">
                             <a class="country-link" href="https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD" target="_blank" rel="noopener noreferrer">中国</a>
+                            <span class="en"><a class="country-link" href="https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD" target="_blank" rel="noopener noreferrer">China</a></span>
                         </td>
                     </tr>
                     <tr>
-                        <td class="label">民族</td>
-                        <td class="value">汉族</td>
+                        <td class="label">民族 <span class="en">Ethnicity</span></td>
+                        <td class="value">汉族 <span class="en">Han Chinese</span></td>
                     </tr>
                     <tr>
-                        <td class="label">出生地</td>
-                        <td class="value">贵州贵阳</td>
+                        <td class="label">出生地 <span class="en">Place of Birth</span></td>
+                        <td class="value">贵州贵阳 <span class="en">Guiyang, Guizhou</span></td>
                     </tr>
                     <tr>
-                        <td class="label">出生日期</td>
-                        <td class="value">2003年10月5日</td>
+                        <td class="label">出生日期 <span class="en">Date of Birth</span></td>
+                        <td class="value">2003年10月5日 <span class="en">October 5, 2003</span></td>
                     </tr>
                     <tr>
-                        <td class="label">职业</td>
+                        <td class="label">职业 <span class="en">Occupation</span></td>
                         <td class="value">
                             <a class="job-link" href="https://baike.baidu.com/item/%E7%94%B5%E6%B0%94%E5%B7%A5%E7%A8%8B%E6%8A%80%E6%9C%AF%E4%BA%BA%E5%91%98" target="_blank" rel="noopener noreferrer">
                                 电气工程技术人员
                             </a>
+                            <span class="en"><a class="job-link" href="https://baike.baidu.com/item/%E7%94%B5%E6%B0%94%E5%B7%A5%E7%A8%8B%E6%8A%80%E6%9C%AF%E4%BA%BA%E5%91%98" target="_blank" rel="noopener noreferrer">Electrical Engineering Technician</a></span>
                         </td>
                     </tr>
                     <tr>
-                        <td class="label">毕业院校</td>
+                        <td class="label">毕业院校 <span class="en">Alma Mater</span></td>
                         <td class="value">
                             <a class="school-link" href="http://www.gzky.edu.cn/" target="_blank" rel="noopener noreferrer">
                                 贵州工业职业技术学院
                             </a>
+                            <span class="en"><a class="school-link" href="http://www.gzky.edu.cn/" target="_blank" rel="noopener noreferrer">Guizhou Industry Polytechnic College</a></span>
                         </td>
                     </tr>
                     <tr>
-                        <td class="label">主要成就</td>
+                        <td class="label">主要成就 <span class="en">Major Achievements</span></td>
                         <td class="value value-sm" style="line-height:1.5;">
-                            独立开发“电力参数一体化计算平台”并获软著；<br />持有电工三级（高级工）证书
+                            独立开发“电力参数一体化计算平台”并获软著；持有电工三级（高级工）证书
+                            <span class="en">Independently developed "Integrated Power Parameter Calculation Platform" with software copyright; holds Electrician Level 3 (Senior Worker) certificate</span>
                         </td>
                     </tr>
                     <tr>
-                        <td class="label">代表作品</td>
-                        <td class="value">电力参数一体化计算平台 V2.0</td>
+                        <td class="label">代表作品 <span class="en">Representative Works</span></td>
+                        <td class="value">
+                            电力参数一体化计算平台 V2.0
+                            <span class="en">Integrated Power Parameter Calculation Platform V2.0</span>
+                        </td>
                     </tr>
                 </table>
             </div>
@@ -719,11 +890,15 @@
         <!-- ===== 右侧正文 ===== -->
         <main class="content">
             <div class="content-header">
-                <h1>郑天赐</h1>
+                <h1>
+                    郑天赐
+                    <span class="en">Zheng Tianci</span>
+                </h1>
                 <div class="subhead">
                     <a class="job-link" href="https://baike.baidu.com/item/%E7%94%B5%E6%B0%94%E5%B7%A5%E7%A8%8B%E6%8A%80%E6%9C%AF%E4%BA%BA%E5%91%98" target="_blank" rel="noopener noreferrer">
                         电气工程技术人员
                     </a>
+                    <span class="en"><a class="job-link" href="https://baike.baidu.com/item/%E7%94%B5%E6%B0%94%E5%B7%A5%E7%A8%8B%E6%8A%80%E6%9C%AF%E4%BA%BA%E5%91%98" target="_blank" rel="noopener noreferrer">Electrical Engineering Technician</a></span>
                 </div>
             </div>
 
@@ -731,9 +906,13 @@
                 <strong>郑天赐</strong>，男，
                 <a class="country-link" href="https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD" target="_blank" rel="noopener noreferrer">中国</a>
                 贵州贵阳人，电气工程技术人员、软件开发者。持有<strong>电工三级（高级工）</strong>职业技能等级证书，并独立开发了“<strong>电力参数一体化计算平台</strong>”，该软件于2026年7月6日获得中华人民共和国国家版权局计算机软件著作权登记（登记号：2026SR0712497）。主要研究方向为电力系统自动化与电气工程软件工具开发。
+                <span class="en"><strong>Zheng Tianci</strong>, male, from Guiyang, Guizhou, <a class="country-link" href="https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD" target="_blank" rel="noopener noreferrer">China</a>, is an electrical engineering technician and software developer. He holds the <strong>Electrician Level 3 (Senior Worker)</strong> vocational skill level certificate and independently developed the "<strong>Integrated Power Parameter Calculation Platform</strong>," which received the Computer Software Copyright Registration from the National Copyright Administration of China on July 6, 2026 (Registration No.: 2026SR0712497). His main research directions include power system automation and electrical engineering software tool development.</span>
             </p>
 
-            <h2>人物经历</h2>
+            <h2>
+                人物经历
+                <span class="en">Biography</span>
+            </h2>
             <ul>
                 <li>
                     <strong>2024年9月26日</strong>，通过
@@ -741,42 +920,65 @@
                         贵州工业职业技术学院
                     </a>
                     组织的职业技能等级认定，获得<strong>电工三级（高级工）</strong>职业技能等级证书（证书编号：Y000052003011243001558）。
+                    <span class="en"><strong>September 26, 2024</strong>: Obtained the <strong>Electrician Level 3 (Senior Worker)</strong> Vocational Skill Level Certificate (Certificate No.: Y000052003011243001558) through the vocational skill level assessment organized by <a class="school-link" href="http://www.gzky.edu.cn/" target="_blank" rel="noopener noreferrer">Guizhou Industry Polytechnic College</a>.</span>
                 </li>
                 <li>
                     <strong>2026年7月6日</strong>，独立开发的“<strong>电力参数一体化计算平台</strong>”获得国家版权局计算机软件著作权登记证书（登记号：2026SR0712497）。
+                    <span class="en"><strong>July 6, 2026</strong>: The independently developed "<strong>Integrated Power Parameter Calculation Platform</strong>" received the Computer Software Copyright Registration Certificate from the National Copyright Administration of China (Registration No.: 2026SR0712497).</span>
                 </li>
             </ul>
 
-            <h2>研究方向</h2>
+            <h2>
+                研究方向
+                <span class="en">Research Directions</span>
+            </h2>
             <ul>
-                <li><strong>电力系统自动化</strong>：涉及电力系统运行、控制以及自动化技术。</li>
-                <li><strong>电气工程软件工具开发</strong>：针对电力参数计算、分析等环节，开发集成化、高效化的软件工具。</li>
+                <li>
+                    <strong>电力系统自动化</strong>：涉及电力系统运行、控制以及自动化技术。
+                    <span class="en"><strong>Power System Automation</strong>: Involving power system operation, control, and automation technologies.</span>
+                </li>
+                <li>
+                    <strong>电气工程软件工具开发</strong>：针对电力参数计算、分析等环节，开发集成化、高效化的软件工具。
+                    <span class="en"><strong>Electrical Engineering Software Tool Development</strong>: Developing integrated and efficient software tools for power parameter calculation, analysis, and related processes.</span>
+                </li>
             </ul>
 
-            <h2>主要成就</h2>
+            <h2>
+                主要成就
+                <span class="en">Major Achievements</span>
+            </h2>
 
             <div class="highlight-box">
                 <p>
                     <strong>软件著作权</strong>：2026年7月6日，独立开发的“电力参数一体化计算平台”获得计算机软件著作权登记（登记号：2026SR0712497）。该软件集成了电力系统过流计算、短路电流计算等核心功能，旨在提升电力参数计算的效率与准确性。
+                    <span class="en"><strong>Software Copyright</strong>: July 6, 2026 — The independently developed "Integrated Power Parameter Calculation Platform" received the Computer Software Copyright Registration (Registration No.: 2026SR0712497). The software integrates core functions such as power system overcurrent calculation and short-circuit current calculation, aiming to improve the efficiency and accuracy of power parameter calculations.</span>
                 </p>
                 <p class="check-link">
-                    🔍 <a href="https://www.ccopyright.com.cn/" target="_blank" rel="noopener noreferrer">点此查验真伪（中国版权保护中心官网）</a>
+                    🔍 <a href="https://www.ccopyright.com.cn/" target="_blank" rel="noopener noreferrer">点此查验真伪</a>
+                    <span class="en"><a href="https://www.ccopyright.com.cn/" target="_blank" rel="noopener noreferrer">Verify authenticity</a> (China Copyright Protection Center)</span>
                 </p>
             </div>
 
             <div class="highlight-box">
                 <p>
                     <strong>职业技能等级</strong>：2024年9月26日，获得电工三级（高级工）职业技能等级证书（证书编号：Y000052003011243001558），具备独立完成复杂电气系统安装、调试与故障排查的能力。
+                    <span class="en"><strong>Vocational Skill Level</strong>: September 26, 2024 — Obtained the Electrician Level 3 (Senior Worker) Vocational Skill Level Certificate (Certificate No.: Y000052003011243001558), demonstrating the ability to independently complete the installation, debugging, and troubleshooting of complex electrical systems.</span>
                 </p>
                 <p class="check-link">
-                    🔍 <a href="http://jndj.osta.org.cn/" target="_blank" rel="noopener noreferrer">点此查验真伪（技能人才评价证书全国联网查询）</a>
+                    🔍 <a href="http://jndj.osta.org.cn/" target="_blank" rel="noopener noreferrer">点此查验真伪</a>
+                    <span class="en"><a href="http://jndj.osta.org.cn/" target="_blank" rel="noopener noreferrer">Verify authenticity</a> (National Vocational Certificate Query)</span>
                 </p>
             </div>
 
             <div class="footer">
-                 郑天赐 &nbsp;|&nbsp; Copyright © 2026 www.zhengtianci.com
-            <div>
-　地址：北京市海淀区西三环北路　邮编：100000  中华人民共和国
+                <div>
+                    郑天赐 &nbsp;|&nbsp; Copyright © 2026 www.zhengtianci.com
+                    <span class="en">Zheng Tianci &nbsp;|&nbsp; Copyright © 2026 www.zhengtianci.com</span>
+                </div>
+                <div class="addr">
+                    地址：北京市海淀区西三环北路　邮编：100000 &nbsp; 中华人民共和国
+                    <span class="en">Address: West Third Ring North Road, Haidian District, Beijing, China &nbsp; Zip: 100000</span>
+                </div>
             </div>
         </main>
     </div>
